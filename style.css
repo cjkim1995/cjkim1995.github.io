@@ -115,7 +115,7 @@ nav ul li.parent:hover ul.child {
 }
 
 nav ul li.parent ul.child li {
-    width: relative;
+    /*width: relative;*/
     padding: 0px;
     margin-bottom: 5px;
 }
@@ -127,7 +127,7 @@ nav ul li.parent ul.child li a {
 
 body {
 	margin: 0 auto;
-	max-width: 70 em;
+	max-width: 70em;
 	
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	
@@ -194,7 +194,7 @@ h3 img {
 
 /*Mail colors*/
 .fa-envelope-o{
-  background: #eeeeee
+  background: #eeeeee;
   color: #d44638;
 }
 

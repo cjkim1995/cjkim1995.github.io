@@ -3,42 +3,66 @@
 	<head>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>New fone, who dis?</title>
+    <title>Biographies</title>
     <meta name="description" content="CJ's journey into the tech-bro life">
     <meta name="author" content="CJ Kim">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <a href="index.html">
-          <img id="logo" src="imgs/cjk_logo.png">
-        </a>
-        <nav>
-          <ul>
-            <li class="parent">
-              <a href="#">About</a>
-              <ul class="child">
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-                <li>
-                  <a href="bio.html">Bio</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
-    <h1>Bio</h1>
-    <img src="imgs/meirl.png" width="150px" height="120px" alt="CJ Headshot">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="imgs/cjk_logo.png" style="width:150px;height:100px;"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+            <a class="nav-link" data-value="index" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="about" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="bio" href="bio.html" class="active">Bio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="contact" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <div class="bio" id="bio">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <img src="imgs/meirl.png" class="img-fluid">
+        <p class="text-center text-muted">Web Developer</p>
+      </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 desc">
+     
+      <h3>CJ Kim</h3>
+      <p>
+        I am an alumnus from the University of California, Berkeley with a Bachelor of Arts in Applied Mathematics. I have been working as a consultant in the pharmaceutical space since graduation and am currently looking to move into software & web development.
+      </p>
+     </div>
+    </div>
+  </div>
     
-    <p>
+    <!-- <p>
       Hello there! I'm CJ, the creator of this website!
     </p>
 
@@ -48,7 +72,7 @@
 
     <p>
       I went to college for Applied Mathematics at the University of California, Berkeley, and now I am working as a consultant for the pharmaceutical industry. I am interested in software & technology.
-    </p>
+    </p> -->
 
     
     <!-- <img src="imgs/family.png" width="300px" height="220px" alt="CJ Family Photo">
@@ -61,3 +85,4 @@
 
 
   </body>
+</html>
