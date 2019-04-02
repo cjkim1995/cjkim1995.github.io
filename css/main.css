@@ -14,10 +14,12 @@ body {
 
 .navbar{ 
   background:#F97300;
+  position: fixed;
 }
 
 .nav-link , .navbar-brand{ 
-  color: #f4f4f4; cursor: pointer;
+  color: #f4f4f4; 
+  cursor: pointer;
 }
 
 .nav-link{ 
@@ -79,9 +81,10 @@ body {
 }
 .description p{
   color:#666;
-  font-size: 14px;
+  font-size: 15px;
   width: 65%;
   line-height: 1.5;
+  padding-top: 1.5em;
 }
 .description button{
   border:1px  solid #F97300;
@@ -100,11 +103,18 @@ body {
  margin: 2em;
 }
 .bio img{
- height: 100%;
-    width: 100%;
-    border-radius: 50%
-
+  height: 80%;
+  width: 75%;
+  border-radius: 70%;
+  /*position: relative;*/
+  display: block;
+  margin: 0 auto;
 }
+
+.caption{
+  padding-top:2em;
+}
+
 .bio span{
  display: block;
  color: #888;
