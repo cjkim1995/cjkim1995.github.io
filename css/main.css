@@ -104,9 +104,9 @@ h1{
  margin: 2em;
 }*/
 .about img{
-  height: 80%;
-  width: 75%;
-  border-radius: 70%;
+  max-height: 80%;
+  max-width: 75%;
+  border-radius: 100%;
   /*position: relative;*/
   display: block;
   margin: 0 auto;
