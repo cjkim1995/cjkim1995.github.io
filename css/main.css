@@ -196,6 +196,15 @@ h1{
   padding-bottom:1em;
 }
 
+.social a{
+    width:50px;
+    padding:10px;
+}
+
+.social a:hover{
+    text-decoration: none;
+}
+
 .social_icon img{
   width:50px;
   height:50px;
