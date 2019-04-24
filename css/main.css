@@ -23,6 +23,11 @@ body {
   cursor: pointer;
 }
 
+.logo{
+  max-width: 25%;
+  height: auto;
+}
+
 .nav-link{
   margin-right: 1em !important;
 }
@@ -100,10 +105,12 @@ h1{
  padding: 1em;
  position: relative;
 }
+
 /*.about h1{
  color:#F97300;
  margin: 2em;
 }*/
+
 .headshot{
   max-height: 80%;
   max-width: 75%;
@@ -154,21 +161,22 @@ h1{
 }*/
 
 .hobbies .card{
- box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+  margin-bottom: 1em;
 }
 
 .hobbies .card img{
- height: 275px;
+  height: 300px;
 }
 
 .hobbies .card img:hover .des{
- height: 100%;
- background:#f973007d;
- position: absolute;
- width: 89%;
- padding: 5em;
- top: 0;
- border-bottom-left-radius: 0;
+  height: 100%;
+  background:#f973007d;
+  position: absolute;
+  width: 89%;
+  padding: 5em;
+  top: 0;
+  border-bottom-left-radius: 0;
 }
 
 .hobbies .card-title{
