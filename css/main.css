@@ -4,38 +4,39 @@ body {
   background: #f4f4f4;
 }
 
-.btn-orange {
-    background-color: #FF8C00!important;
-    border-bottom-color: #FF8C00!important;
-    border-top-color: #FF8C00!important;
-    border-left-color: #FF8C00!important;
-    border-right-color: #FF8C00!important;
+.btn-resume {
+    background-color: #10828C!important;
+    border-bottom-color: #10828C!important;
+    border-top-color: #10828C!important;
+    border-left-color: #10828C!important;
+    border-right-color: #10828C!important;
+    color: #fff!important;
 }
 
-.navbar{ 
+.navbar{
   background:#F97300;
   position: fixed;
 }
 
-.nav-link , .navbar-brand{ 
-  color: #f4f4f4; 
+.nav-link , .navbar-brand{
+  color: #f4f4f4;
   cursor: pointer;
 }
 
-.nav-link{ 
+.nav-link{
   margin-right: 1em !important;
 }
 
-.nav-link:hover{ 
-  background: #f4f4f4; 
-  color: #f97300; 
+.nav-link:hover{
+  background: #f4f4f4;
+  color: #f97300;
 }
 
-.navbar-collapse{ 
+.navbar-collapse{
   justify-content: flex-end;
 }
 
-.navbar-toggler{ 
+.navbar-toggler{
   background:#fff !important;
 }
 
@@ -103,7 +104,7 @@ h1{
  color:#F97300;
  margin: 2em;
 }*/
-.about img{
+.headshot{
   max-height: 80%;
   max-width: 75%;
   border-radius: 100%;
@@ -134,14 +135,22 @@ h1{
  color:#888;
 }
 
+.btn-resume{
+    background-color:#10828C!important;
+    border-bottom-color: #10828C!important;
+    border-top-color: #10828C!important;
+    border-left-color: #10828C!important;
+    border-right-color: #10828C!important;
+}
+
 .hobbies{
  margin: 4em 0;
- position: relative; 
+ position: relative;
 }
 
 /*.hobbies h1{
  color:#F97300;
- margin: 2em; 
+ margin: 2em;
 }*/
 
 .hobbies .card{
@@ -164,7 +173,7 @@ h1{
 
 .hobbies .card-title{
  color:#F97300;
-  
+
 }
 .hobbies .card-body{
  padding: 1em;
@@ -172,11 +181,11 @@ h1{
 
 .contact-form{
  margin: 6em 0;
- position: relative;  
+ position: relative;
 }
 /*.contact-form h1{
  padding:2em 1px;
- color: #F97300; 
+ color: #F97300;
 }*/
 .contact-form .right{
  max-width: 600px;
